@@ -1,0 +1,27 @@
+.advice {
+  @include absCenter;
+  background-color: $color-dark-grayish-blue;
+  padding: 4rem;
+  border-radius: 1.5rem;
+  font-weight: 600;
+  max-width: 55.5rem;
+
+  &__quote {
+    font-size: $font-size-quote;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  &__divisor {
+    &--pause {
+      text-align: center;
+      display: block;
+    }
+  }
+
+  &__dice {
+    transform: translateY(180%);
+    height: 3rem;
+    margin: 0 auto;
+  }
+}

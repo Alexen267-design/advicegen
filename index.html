@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link href="https://fonts.google.com/specimen/Manrope" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Advice generator app</title>
+    <script defer src="js/script.js"></script>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section class="section-advice">
+      <div class="advice">
+        <div class="advice__header u-margin-bottom-medium">
+          <h2 class="advice__heading">advice #</h2>
+        </div>
+        <blockquote class="advice__quote u-margin-bottom-large">""</blockquote>
+
+        <div class="advice__divisor">
+          <span class="advice__divisor--pause"
+            ><picture>
+              <source
+                srcset="images/pattern-divider-mobile.svg"
+                media="(max-width: 35em)"
+              />
+              <img
+                src="images/pattern-divider-desktop.svg"
+                class="u-margin-top-xm"
+              />
+            </picture>
+          </span>
+        </div>
+        <div class="advice__dice">
+          <button class="btn-dice">
+            <img src="images/icon-dice.svg" class="u-margin-top-xm" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <div>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Alexen267-design</a>.
+    </div>
+  </body>
+</html>

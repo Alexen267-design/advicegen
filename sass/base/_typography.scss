@@ -1,0 +1,16 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: $color-dark-blue;
+  color: $color-primary-cyan;
+}
+
+.advice {
+  &__heading {
+    color: $color-primary-green;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+.btn-dice {
+  @include absCenter;
+  border: none;
+  background-color: $color-primary-green;
+  border-radius: 3rem;
+  width: 6rem;
+  height: 6rem;
+  transition: all 0.4s;
+
+  &:hover {
+    box-shadow: 0 0.5rem 5rem $color-primary-green;
+  }
+  &:active {
+    box-shadow: 0 0.5rem 3.5rem $color-primary-green;
+  }
+}

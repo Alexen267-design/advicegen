@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: hsl(218, 23%, 16%);
+  color: hsl(193, 38%, 86%);
+}
+
+.advice__heading {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 2.5rem;
+}
+
+.u-margin-bottom-large {
+  margin-bottom: 4rem;
+}
+
+.u-margin-top-xm {
+  margin-top: 0.3rem;
+}
+
+.section-advice {
+  position: relative;
+  height: 100vh;
+}
+
+.advice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(217, 19%, 24%);
+  padding: 4rem;
+  border-radius: 1.5rem;
+  font-weight: 600;
+  max-width: 55.5rem;
+}
+.advice__quote {
+  font-size: 28px;
+  text-align: center;
+  transition: all 0.5s;
+}
+.advice__divisor--pause {
+  text-align: center;
+  display: block;
+}
+.advice__dice {
+  transform: translateY(180%);
+  height: 3rem;
+  margin: 0 auto;
+}
+
+.btn-dice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 3rem;
+  width: 6rem;
+  height: 6rem;
+  transition: all 0.4s;
+}
+.btn-dice:hover {
+  box-shadow: 0 0.5rem 5rem hsl(150, 100%, 66%);
+}
+.btn-dice:active {
+  box-shadow: 0 0.5rem 3.5rem hsl(150, 100%, 66%);
+}
+
+/*# sourceMappingURL=style.css.map */
